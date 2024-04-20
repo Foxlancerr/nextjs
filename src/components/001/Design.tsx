@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import nextLogo from "@/assets/jump.jpg"
 import Button from "./sub-components/Button";
+import { ProfileImage } from "@/assets/index";
 
 function Design() {
   return (
@@ -21,7 +21,7 @@ function Design() {
           ></Button>
         </div>
         <div className="bg-yellow-200 w-[200px] h-[200px] rounded-full object-cover overflow-hidden">
-          <Image src={nextLogo} alt="Logo" className="w-auto h-auto"></Image>
+          <Image src={ProfileImage} alt="Logo" className="w-auto h-auto"></Image>
         </div>
       </div>
     </div>
